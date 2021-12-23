@@ -1,0 +1,12 @@
+// * Global CSS vars
+@import "./config/_vars.scss";
+
+// * Initial configuration and basic styles
+@import "./config/config.scss";
+@import "./config/base";
+
+// * Components
+@import "./components/card";
+@import "./components/color_paletes";
+@import "./components/hero";
+@import "./components/services";

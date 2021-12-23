@@ -1,0 +1,32 @@
+.hero {
+	align-items: center;
+	background-color: $csm_primary;
+	background: -moz-linear-gradient(left, $csm_primary, $csm_secondary);
+	background: -ms-linear-gradient(left, $csm_primary, $csm_secondary);
+	background: -o-linear-gradient(left, $csm_primary, $csm_secondary);
+	background: linear-gradient(to right, $csm_primary, $csm_secondary);
+	justify-content: center;
+
+	min-height: 75vh;
+	padding: 35px;
+
+	&-content {
+		align-items: center;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+
+	&-image {
+		object-fit: cover;
+		width: 50%;
+		& img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+	&-title {
+		font-size: calc(3em + 2vmin);
+		width: 50%;
+	}
+}

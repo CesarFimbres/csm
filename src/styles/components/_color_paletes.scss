@@ -1,0 +1,91 @@
+$csm_0: #10375c;
+$csm_1: #29de92;
+$csm_2: #bae8e8;
+$csm_3: #e3f6f5;
+$csm_4: #fafffd;
+
+$csm_5: #163a5f;
+$csm_6: #1d566e;
+$csm_7: #21aba5;
+$csm_8: #45eba5;
+$csm_9: #fff;
+
+$medium-sea-green: #5cb270ff;
+$pistachio: #82c26eff;
+$yellow-green-crayola: #a8d26dff;
+$june-bud: #cee26bff;
+$icterine: #f4f269ff;
+
+.palete {
+	background-color: #fefefe;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	padding: 25px;
+	&-item {
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		height: 25px;
+		margin-bottom: 5px;
+		width: 175px;
+	}
+}
+
+.a {
+	&1 {
+		background-color: $csm_primary;
+	}
+	&2 {
+		background-color: $csm_secondary;
+	}
+	&3 {
+		background-color: $csm_info;
+	}
+	&4 {
+		background-color: $csm_success;
+	}
+	&5 {
+		background-color: $csm_warning;
+	}
+	&6 {
+		background-color: $csm_white;
+	}
+	&7 {
+		background-color: $csm_dark;
+	}
+}
+
+.b {
+	&1 {
+		background-color: $csm_0;
+	}
+	&2 {
+		background-color: $csm_1;
+	}
+	&3 {
+		background-color: $csm_2;
+	}
+	&4 {
+		background-color: $csm_3;
+	}
+	&5 {
+		background-color: $csm_4;
+	}
+}
+
+.c {
+	&1 {
+		background-color: $medium-sea-green;
+	}
+	&2 {
+		background-color: $pistachio;
+	}
+	&3 {
+		background-color: $yellow-green-crayola;
+	}
+	&4 {
+		background-color: $june-bud;
+	}
+	&5 {
+		background-color: $icterine;
+	}
+}

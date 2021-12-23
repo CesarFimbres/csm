@@ -1,0 +1,40 @@
+.card {
+	border-radius: 4px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+
+	&_services {
+		background-color: $csm_primary;
+		border-radius: 10px;
+		color: $csm_white;
+		flex-grow: 1;
+		max-width: 350px;
+		min-width: 275px;
+
+		transition: background-color 0.3s ease;
+		&:hover {
+			background-color: $csm_secondary;
+		}
+		&-desc {
+			font-size: 1 em;
+			margin-top: 16px;
+			text-indent: 25px;
+			text-align: justify;
+		}
+		&-image {
+			font-size: 7em;
+			margin-top: 16px;
+			& img {
+				height: 130px;
+			}
+		}
+		&-title {
+			font-size: 1.75em;
+			font-weight: 400;
+			margin-top: 12px;
+			text-align: center;
+		}
+	}
+}
